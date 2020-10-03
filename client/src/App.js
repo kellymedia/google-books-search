@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Search from "./pages/Search/search";
 import Saved from "./pages/Saved/saved";
-import NoMatch from "./pages/NoMatch/nomatch";
+import Nothing from "./pages/Nothing/nothing";
 import Nav from "./components/Nav";
 
 import "./app.css"
@@ -20,7 +20,7 @@ function App() {
             <Saved />
           </Route>
           <Route>
-            <NoMatch />
+            <Nothing />
           </Route>
         </Switch>
       </div>
