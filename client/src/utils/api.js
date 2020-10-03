@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiKey = "AIzaSyCorlCz-grT3XUATPYqNEm8_D5J2VXhQws";
+const apiKey = "process.env.REACT_APP_GOOGLE_API_KEY";
 
 export default {
   getBooksByTitle: function (title) {
