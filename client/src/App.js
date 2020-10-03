@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Search from "./pages/Search/search";
 import Saved from "./pages/Saved/saved";
-import Nothing from "./pages/Nothing/nothing";
-import Nav from "./components/Nav";
+import NoMatch from "./pages/NoMatch/nomatch";
+import Nav from "./components/Nav/nav";
 
-import "./app.css"
+import "./App.css"
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             <Saved />
           </Route>
           <Route>
-            <Nothing />
+            <NoMatch />
           </Route>
         </Switch>
       </div>

@@ -1,8 +1,8 @@
 import React from "react";
-import { Col, Row, Container } from "../../components/Grid";
-import Jumbotron from "../../components/Jumbotron/";
+import { Col, Row, Container } from "../../components/Grid/grid";
+import Jumbotron from "../../components/Jumbotron/jumbotron";
 
-function Nothing() {
+function NoMatch() {
   return (
     <Container fluid>
       <Row>
@@ -21,4 +21,4 @@ function Nothing() {
   );
 }
 
-export default Nothing;
+export default NoMatch;
