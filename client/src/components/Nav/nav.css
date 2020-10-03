@@ -1,0 +1,22 @@
+.navbar-container {
+    background-color: #4385f3;
+}
+
+.navbar {
+    max-width: 960px;
+    margin: auto;
+}
+
+.logo {
+    font-weight: normal;
+    margin: 0;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    opacity: .5;
+}
