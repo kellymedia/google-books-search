@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/react-google-search");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mk-react-google-search");
 
 app.listen(PORT, function() {
   console.log(`Server now listening on PORT ${PORT}!`);
