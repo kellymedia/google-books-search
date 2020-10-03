@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Jumbotron from "../../components/Jumbotron";
+import Jumbotron from "../../components/Jumbotron/jumbotron";
 import API from "../../utils/api";
-import { Col, Row, Container } from "../../components/Grid";
-import { List, ListItem } from "../../components/List";
+import { Col, Row, Container } from "../../components/Grid/grid";
+import { List, ListItem } from "../../components/List/list";
 import CardBody from "../../components/cardBody/cardBody";
 import Card from "../../components/Card/card";
 import DeleteBtn from "../../components/DeleteBtn/deleteBtn";
@@ -21,7 +21,7 @@ function Search() {
     API.deleteBook(id);
     setBooks(
       books.filter((book) => {
-        return book._id != id;
+        return book._id !== id;
       })
     );
   }

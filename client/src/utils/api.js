@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiKey = "AIzaSyCorlCz-grT3XUATPYqNEm8_D5J2VXhQws";
+const apiKey = "AIzaSyDD9y6uRf3k33PDLd6SLeEIoOfwLBURrlk";
 
 export default {
   getBooksByTitle: function (title) {

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import Jumbotron from "../../components/Jumbotron/";
-import API from "../../utils/API";
+import Jumbotron from "../../components/Jumbotron/jumbotron";
+import API from "../../utils/api";
 import CardBody from "../../components/cardBody/cardBody";
 import Card from "../../components/Card/card";
 import SaveBtn from "../../components/saveBtn/saveBtn";
 import ViewBtn from "../../components/viewBtn/viewBtn";
-import { Col, Row, Container } from "../../components/Grid/";
-import { List, ListItem } from "../../components/List";
+import { Col, Row, Container } from "../../components/Grid/grid";
+import { List, ListItem } from "../../components/List/list";
 import { Input, FormBtn } from "../../components/Form/form";
 import "../Search/search.css";
 
@@ -51,7 +51,6 @@ function Search() {
         <div className="hero">
           <Jumbotron>
             <h1>Google Books Search</h1>
-            <h5>from Google Books API</h5>
           </Jumbotron>
         </div>
         <Col size="md-12">
@@ -63,7 +62,7 @@ function Search() {
                 textAlign: "center",
                 backgroundColor: "rgb(232,240,254)",
               }}
-              placeholder='For example, "Catcher In The Rye"'
+              placeholder='Search for a book by title'
             />
             <FormBtn
               style={{

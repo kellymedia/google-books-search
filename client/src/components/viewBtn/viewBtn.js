@@ -6,6 +6,7 @@ function ViewBtn(props) {
       className="view-btn btn btn-secondary"
       href={props.link}
       target="_blank"
+      rel="noopener noreferrer"
       tabIndex="0"
       {...props}
       style={{ float: "right", marginRight: 10, color: "#ffffff" }}

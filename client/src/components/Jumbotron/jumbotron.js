@@ -3,7 +3,7 @@ import "../Jumbotron/jumbotron.css";
 
 function Jumbotron({ children }) {
   return (
-    <div style={{ textAlign: "center", height: 200 }} className="jumbotron">
+    <div style={{ textAlign: "center", height: 250 }} className="jumbotron">
       {children}
     </div>
   );
